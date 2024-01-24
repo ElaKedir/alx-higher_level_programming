@@ -4,6 +4,7 @@
 
 class Square:
     """A class Square that defines a square"""
+
     def __init__(self, size=0):
         """ initializing square
 
@@ -19,7 +20,7 @@ class Square:
         Returns:
             Private size.
         """
-        return self.__size
+        return (self.__size)
 
     @size.setter
     def size(self, value):
@@ -41,7 +42,8 @@ class Square:
         Returns:
             area.
         """
-        return self.__size * self.__size
+        return (self.__size * self.__size)
+
     def my_print(self):
         """prints in stdout the square with the character #"""
 
