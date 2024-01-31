@@ -1,10 +1,10 @@
 The ``5-text_indentation`` module
-=================================
+============================
 
 Using ``text_indentation``
--------------------------
+---------------------
 
-Importing functions from the module:
+Importing function from the module:
 
     >>> text_indentation = __import__('5-text_indentation').text_indentation
 
@@ -119,10 +119,10 @@ Passing a text with spaces and one new line
 
 Passing a text with spaces and one new line 2
 
-   >>> text_indentation("   \n   ")
-   <BLANKLINE>
+    >>> text_indentation("   \n   ")
+    <BLANKLINE>
 
 Passing a text with spaces and one new line 3
 
-   >>> text_indentation("\n   ")
-   <BLANKLINE>
+    >>> text_indentation("\n   ")
+    <BLANKLINE>
