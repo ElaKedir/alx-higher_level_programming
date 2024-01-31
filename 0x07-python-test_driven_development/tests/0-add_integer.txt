@@ -66,7 +66,7 @@ Passing a string
     TypeError: a must be an integer
 
 Adding two float numbers
-    >>> add_integer(3.9, 2.9)
+    >>> add_integer(3.2, 2.3)
     5
 
 Subtracting 98 and 1
