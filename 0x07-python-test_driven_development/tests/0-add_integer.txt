@@ -1,26 +1,26 @@
-The ``0-add_integer`` module.
-============================
+The ``0-add_integer`` module
+=============================
 
-Using ``add_integer``.
----------------------
+Using ``add_integer``
+----------------------
 
-Importing function from the module:
+Importing the function from the module:
     >>> add_integer = __import__('0-add_integer').add_integer
 
-Adding 1 and 2
-    >>> add_integer(1, 2)
-    3
+Adding 2 and 5
+    >>> add_integer(2, 5)
+    7
 
 Subtracting 100 and 2
     >>> add_integer(100, -2)
     98
 
 Adding 3.1 and 97
-    >>> add_integer(2.1)
+    >>> add_integer(3.1, 97)
     100
 
 Subtracting 100.2 and 2
-	    >>> add_integer(100.3, -2)
+	    >>> add_integer(100.2, -2)
 	    98
 
 Adding an integer number and a string
@@ -67,10 +67,10 @@ Passing a string
 
 Adding two float numbers
     >>> add_integer(3.9, 2.9)
-    4
+    5
 
 Subtracting 98 and 1
-    >>> add_integer(-1)
+    >>> add_integer(98, -1)
     97
 
 Case Overflow:
